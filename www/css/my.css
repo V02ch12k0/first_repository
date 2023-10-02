@@ -1,0 +1,45 @@
+/* section{
+    background-color: gainsboro;
+} */
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.logo_imgcentr {
+    margin-left: 0%;
+    margin-top: 0px;
+    width: 1805px;
+    height: 1015px;
+    margin-right: 0%;
+}
+.logo_logotext {
+    width: 190px;
+    height: 33px;
+    margin-top: 23px;
+    margin-left: 230px;
+}
+.logo_logoimg {
+    width: 55px;
+    height: 35px;
+    margin-top: 28px;
+    margin-left: 164px;
+    margin-right: 1200px;
+}
+
+.logo_menu {    
+    width: 18px;
+    height: 13px;
+    margin-top: 40px;
+    margin-left: 1246px;
+}
+.logo_knopka{
+    width: 114px;
+    height: 24px;
+    margin-top: 389px;
+}
+/* .logo_goods{
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: 71px;
+} */
