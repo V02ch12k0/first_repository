@@ -22,9 +22,9 @@
                     <div class="dropdown">
                         <button type="button" class="btn btn-outline-light btn-circle" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-bars"></i></button>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                          <li><a class="dropdown-item" href="#">Действие</a></li>
-                          <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                          <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                          <li><a class="dropdown-item" href="#">Пункт меню</a></li>
+                          <li><a class="dropdown-item" href="#">Пункт меню 2</a></li>
+                          <li><a class="dropdown-item" href="#">Что-то еще</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Войти
@@ -32,10 +32,9 @@
                         </ul>
                           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
-                              <div class="modal-content">
+                              <div class="modal-content light-theme">
                                 <div class="modal-header">
                                   <h5 class="modal-title" id="exampleModalLabel">Регистрация</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                                 </div>
                                 <div class="modal-body">
                                     <form>
@@ -43,17 +42,16 @@
                                             <label for="validationCustomUsername" class="form-label">Логин</label>
                                             <div class="input-group has-validation">
                                               <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                                              <div class="invalid-feedback">
-                                                Пожалуйста, выберите имя пользователя.
-                                              </div>
                                             </div>
                                         </div>
                                         <div class="mb-3">
                                           <label for="exampleInputphonenumber" class="form-label">Пароль</label>
                                           <input type="password" pattern=".{7,}" class="form-control" id="exampleInputphonenumber" aria-describedby="emailHelp" required>
                                         </div>
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closee">Закрыть</button>
+                                        <button type="submit" class="btn btn-primary" id="save">Сохранить изменения</button>
+                                        <button onclick='toggleVisibility()' class="btn btn-secondary" id="show">Показать</button>
+                                        <div id='hiddenDiv' style='display:none'>Информация информация информация информация информация информация информация информация информация информация</div>
                                       </form>
                                 </div>
                                 <div class="modal-footer">
@@ -159,5 +157,6 @@
             <img style="margin-top: 30px;" src="img/Footer.png" alt="footerlogo">
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html> 

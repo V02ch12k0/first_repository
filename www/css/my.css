@@ -383,3 +383,13 @@ ul6 li2 {
     font-size: 16px;
     white-space: normal; /* восстанавливаем свойству значение по умолчанию */
 }
+
+.light-theme{
+    color: #333333;
+    background-color: #ffffff;
+}
+  
+.dark-theme{
+    color: #fff;
+    background-color: #333;
+}
